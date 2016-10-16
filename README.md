@@ -4,10 +4,10 @@
 
 ## Badges
 
-[![GoDoc](https://godoc.org/github.com/kaneshin/pigeon?status.svg)](https://godoc.org/github.com/kaneshin/pigeon)
+[![GoDoc](https://godoc.org/github.com/zquestz/pigeon?status.svg)](https://godoc.org/github.com/zquestz/pigeon)
 [![wercker status](https://app.wercker.com/status/265bd30a85f806655926be3ded5eff13/s "wercker status")](https://app.wercker.com/project/bykey/265bd30a85f806655926be3ded5eff13)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![Code Climate](https://codeclimate.com/github/kaneshin/pigeon/badges/gpa.svg)](https://codeclimate.com/github/kaneshin/pigeon)
+[![Code Climate](https://codeclimate.com/github/zquestz/pigeon/badges/gpa.svg)](https://codeclimate.com/github/zquestz/pigeon)
 
 
 ## Prerequisite
@@ -26,7 +26,7 @@ $ export GOOGLE_APPLICATION_CREDENTIALS=/path/to/service_account.json
 `pigeon` provides the command-line tools.
 
 ```shell
-$ go get github.com/kaneshin/pigeon/tools/cmd/...
+$ go get github.com/zquestz/pigeon/tools/cmd/...
 ```
 
 Make sure that `pigeon` was installed correctly:
@@ -41,7 +41,7 @@ $ pigeon-app -h
 Type the following line to install `pigeon` package.
 
 ```shell
-$ go get github.com/kaneshin/pigeon
+$ go get github.com/zquestz/pigeon
 ```
 
 
@@ -58,7 +58,7 @@ $ pigeon -face gs://bucket_name/lenna.jpg
 $ pigeon -label https://httpbin.org/image/jpeg
 ```
 
-![pigeon-cmd](https://raw.githubusercontent.com/kaneshin/pigeon/master/assets/pigeon-cmd.gif)
+![pigeon-cmd](https://raw.githubusercontent.com/zquestz/pigeon/master/assets/pigeon-cmd.gif)
 
 
 ### `pigeon-app` command
@@ -71,14 +71,14 @@ $ pigeon-app -port=8000 -- -face -label -safe-search
 $ curl -XGET localhost:8080/
 ```
 
-![pigeon-app](https://raw.githubusercontent.com/kaneshin/pigeon/master/assets/pigeon-app.gif)
+![pigeon-app](https://raw.githubusercontent.com/zquestz/pigeon/master/assets/pigeon-app.gif)
 
 
 ### `pigeon` package
 
 ```go
-import "github.com/kaneshin/pigeon"
-import "github.com/kaneshin/pigeon/credentials"
+import "github.com/zquestz/pigeon"
+import "github.com/zquestz/pigeon/credentials"
 
 func main() {
 	// Initialize vision service by a credentials json.
@@ -211,7 +211,7 @@ if err != nil {
 
 ### Pigeon
 
-![pigeon](https://raw.githubusercontent.com/kaneshin/pigeon/master/assets/pigeon.png)
+![pigeon](https://raw.githubusercontent.com/zquestz/pigeon/master/assets/pigeon.png)
 
 #### input
 
@@ -243,7 +243,7 @@ $ pigeon -label assets/pigeon.png
 
 ### Lenna
 
-![lenna](https://raw.githubusercontent.com/kaneshin/pigeon/master/assets/lenna.jpg)
+![lenna](https://raw.githubusercontent.com/zquestz/pigeon/master/assets/lenna.jpg)
 
 #### input
 
@@ -269,7 +269,7 @@ $ pigeon -safe-search assets/lenna.jpg
 
 ## License
 
-[The MIT License (MIT)](http://kaneshin.mit-license.org/)
+[The MIT License (MIT)](http://zquestz.mit-license.org/)
 
 
 ## Author

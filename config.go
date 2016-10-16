@@ -3,7 +3,7 @@ package pigeon
 import (
 	"net/http"
 
-	"github.com/kaneshin/pigeon/credentials"
+	"github.com/zquestz/pigeon/credentials"
 )
 
 type (

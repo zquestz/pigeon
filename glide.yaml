@@ -1,4 +1,4 @@
-package: github.com/kaneshin/pigeon
+package: github.com/zquestz/pigeon
 import:
 - package: golang.org/x/oauth2
   subpackages:

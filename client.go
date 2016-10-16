@@ -12,7 +12,7 @@ import (
 	"golang.org/x/oauth2/google"
 	vision "google.golang.org/api/vision/v1"
 
-	"github.com/kaneshin/pigeon/credentials"
+	"github.com/zquestz/pigeon/credentials"
 )
 
 type (

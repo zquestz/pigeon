@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/kaneshin/pigeon/credentials"
 	"github.com/stretchr/testify/assert"
+	"github.com/zquestz/pigeon/credentials"
 )
 
 func TestConfig(t *testing.T) {

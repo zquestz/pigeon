@@ -6,8 +6,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/kaneshin/pigeon"
-	"github.com/kaneshin/pigeon/tools/cmd"
+	"github.com/zquestz/pigeon"
+	"github.com/zquestz/pigeon/tools/cmd"
 )
 
 func main() {

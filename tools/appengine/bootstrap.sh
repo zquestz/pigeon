@@ -13,5 +13,5 @@ $GOGET -u golang.org/x/oauth2/google
 
 $GOGET -u github.com/gin-gonic/gin
 $GOGET -u github.com/stretchr/testify/assert
-$GOGET -u github.com/kaneshin/pigeon
+$GOGET -u github.com/zquestz/pigeon
 $GOGET -u github.com/olahol/go-imageupload

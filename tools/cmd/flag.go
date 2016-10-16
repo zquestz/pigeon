@@ -5,7 +5,7 @@ import (
 
 	vision "google.golang.org/api/vision/v1"
 
-	"github.com/kaneshin/pigeon"
+	"github.com/zquestz/pigeon"
 )
 
 const (

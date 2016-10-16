@@ -17,7 +17,7 @@ $ export GOOGLE_APPLICATION_CREDENTIALS=/path/to/service_account.json
 Type the following line to install `pigeon`.
 
 ```shell
-$ go get github.com/kaneshin/pigeon/tools/cmd/pigeon-app
+$ go get github.com/zquestz/pigeon/tools/cmd/pigeon-app
 ```
 
 Make sure that `pigeon` was installed correctly:
@@ -35,12 +35,12 @@ $ pigeon-app -port=8080 -- -face -label -safe-search
 
 ## Example
 
-![pigeon-app](https://raw.githubusercontent.com/kaneshin/pigeon/master/assets/pigeon-app.gif)
+![pigeon-app](https://raw.githubusercontent.com/zquestz/pigeon/master/assets/pigeon-app.gif)
 
 
 ## License
 
-[The MIT License (MIT)](http://kaneshin.mit-license.org/)
+[The MIT License (MIT)](http://zquestz.mit-license.org/)
 
 
 ## Author

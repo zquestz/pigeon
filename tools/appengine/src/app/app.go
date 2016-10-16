@@ -13,8 +13,8 @@ import (
 	"google.golang.org/appengine/urlfetch"
 
 	"github.com/gin-gonic/gin"
-	"github.com/kaneshin/pigeon"
 	"github.com/olahol/go-imageupload"
+	"github.com/zquestz/pigeon"
 )
 
 func init() {
